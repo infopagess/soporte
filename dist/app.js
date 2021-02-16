@@ -10703,11 +10703,7 @@ return jQuery;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {$(window).scroll(function () {
-  if ($(window).scrollTop() > 500) {
-    $('.modal-window-wrap, body').addClass('active');
-  }
-});
+
 $(window).on('load', function () {
   $('.prelouder').delay(1000).fadeOut('fast');
   $('body').removeClass('loud-overflow');
