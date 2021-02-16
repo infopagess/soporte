@@ -10703,8 +10703,7 @@ return jQuery;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-
-$(window).on('load', function () {
+/* WEBPACK VAR INJECTION */(function($) {$(window).on('load', function () {
   $('.prelouder').delay(1000).fadeOut('fast');
   $('body').removeClass('loud-overflow');
 });
